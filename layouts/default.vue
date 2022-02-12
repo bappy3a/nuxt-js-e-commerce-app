@@ -1,6 +1,8 @@
 <template>
   <div>
-    <p>this is index page</p>
+    <Header />
+    <Nuxt />
+    <Footer />
   </div>
 </template>
 
@@ -8,7 +10,11 @@
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 export default {
-  name: 'IndexPage',
+  name: 'default',
   components : {Header,Footer}
 }
 </script>
+
+<style scoped>
+
+</style>
